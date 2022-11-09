@@ -45,7 +45,8 @@ Setup software repository
 sudo apt install apt-transport-https dirmngr
 ```
 ```
-sudo apt install apt-transport-https dirmngr
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1CE2AFD36DBCCA00
+
 ```
 ```
 sudo echo "deb https://artifacts.chirpstack.io/packages/4.x/deb stable main" | sudo tee /etc/apt/sources.list.d/chirpstack.list
