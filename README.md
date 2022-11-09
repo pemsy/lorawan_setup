@@ -17,7 +17,7 @@ sudo -u postgres psql
 
 -- create role for authentication
 ```
-create role chirpstack with login password 'chirpstack';
+create role chirpstack with login password 'L5nUYizwsW9zfx7HhVt7';
 ```
 -- create database
 ```
