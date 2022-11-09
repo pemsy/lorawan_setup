@@ -353,7 +353,7 @@ nano /etc/chirpstack/chirpstack.toml
 ```
 
 # Staring
-```
+
 ## start chirpstack
 ```
 sudo systemctl start chirpstack
